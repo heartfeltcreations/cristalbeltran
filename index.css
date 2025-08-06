@@ -1,0 +1,73 @@
+/* 
+Colores de la pagina: violeta (670093), violeta muy oscuro (390048), lila (eac7f9)
+Selectores: tipo (et), clase (etiqueta.class), clase (.class),
+id (#id), descendientes (et et), hijos (et > et), consecutivos (e + e),
+grupo (x, x)
+ */
+
+/* Barra de navegacion */
+
+#navbar-inicio { 
+  background-color: #eac7f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-links a {
+  color: #390048;
+  display: inline;
+  gap: 20px;
+}
+
+#navbar-inicio .logo img {
+      height: 90px;
+    }
+
+/* Página completa*/
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f4f0f8;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+  color: #390048;
+  text-align: center;
+}
+
+hr {
+  color: #390048;
+  width: 80%;
+}
+
+/* ---------------------------------------cabecera-------------------------------------------------------- */
+
+.resumen {
+text-align: center;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #670093;
+}
+
+/* ----------------------------------------------------cuerpo----------------------------------------------- */
+
+/* ---------------------------------------------------Capacidades------------------------------------------- */
+
+/* ---------------------------------------------enlaces de navegación--------------------------------------- */
+
+/* ------------------------------------------------botón de menú-------------------------------------------- */
+
+/* ----------------------------------------------Pie de página---------------------------------------------- */
+
+#pie {
+  text-align: center;
+}
